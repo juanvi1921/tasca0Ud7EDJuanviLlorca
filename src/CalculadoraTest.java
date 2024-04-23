@@ -32,4 +32,9 @@ class CalculadoraTest {
     void calculadoraTest6() {
         assertEquals(-1, Calculadora.suma("1,2,-2"));
     }
+
+    @Test
+    void calculadoraTest7() {
+        assertEquals(5, Calculadora.suma("5,1002"));
+    }
 }
