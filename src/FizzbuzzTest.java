@@ -52,4 +52,29 @@ class FizzbuzzTest {
     void testFizzBuzz10() {
         assertEquals("Buzz", Fizzbuzz.fizzBuzzMetodo(10));
     }
+
+    @Test
+    void testFizzBuzz11() {
+        assertEquals("11", Fizzbuzz.fizzBuzzMetodo(11));
+    }
+
+    @Test
+    void testFizzBuzz12() {
+        assertEquals("Fizz", Fizzbuzz.fizzBuzzMetodo(12));
+    }
+
+    @Test
+    void testFizzBuzz13() {
+        assertEquals("13", Fizzbuzz.fizzBuzzMetodo(13));
+    }
+
+    @Test
+    void testFizzBuzz14() {
+        assertEquals("14", Fizzbuzz.fizzBuzzMetodo(14));
+    }
+
+    @Test
+    void testFizzBuzz15() {
+        assertEquals("FizzBuzz", Fizzbuzz.fizzBuzzMetodo(15));
+    }
 }
