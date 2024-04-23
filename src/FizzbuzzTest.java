@@ -18,4 +18,18 @@ class FizzbuzzTest {
         assertEquals("Fizz", Fizzbuzz.fizzBuzzMetodo(3));
     }
 
+    @Test
+    void testFizzBuzz4() {
+        assertEquals("4", Fizzbuzz.fizzBuzzMetodo(4));
+    }
+
+    @Test
+    void testFizzBuzz5() {
+        assertEquals("Buzz", Fizzbuzz.fizzBuzzMetodo(5));
+    }
+
+    @Test
+    void testFizzBuzz6() {
+        assertEquals("Fizz", Fizzbuzz.fizzBuzzMetodo(6));
+    }
 }
