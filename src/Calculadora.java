@@ -8,6 +8,7 @@ public class Calculadora {
         List<Integer> numerosInt = new ArrayList<>();
         Integer total = 0;
         if (!num.isEmpty()) {
+            if (num.lastIndexOf(",") == num.length()-1) return -1;
             for (int i = 0; i < numeros.size(); i++) {
                 numerosInt.add(Integer.parseInt(numeros.get(i)));
                 total += numerosInt.get(i);
