@@ -32,4 +32,5 @@ class FizzbuzzTest {
     void testFizzBuzz6() {
         assertEquals("Fizz", Fizzbuzz.fizzBuzzMetodo(6));
     }
+
 }
