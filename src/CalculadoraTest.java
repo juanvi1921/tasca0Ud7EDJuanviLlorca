@@ -27,4 +27,9 @@ class CalculadoraTest {
     void calculadoraTest5() {
         assertEquals(-1, Calculadora.suma("1,2,"));
     }
+
+    @Test
+    void calculadoraTest6() {
+        assertEquals(-1, Calculadora.suma("1,2,-2"));
+    }
 }
